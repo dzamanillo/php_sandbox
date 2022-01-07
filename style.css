@@ -1,3 +1,7 @@
 .test {
 	font-size: 6rem;
 }
+
+.projects {
+	max-width: 1300px;
+}
