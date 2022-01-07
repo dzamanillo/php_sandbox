@@ -22,5 +22,7 @@
     
 
     ?>
+
+    <strong>Auto deploy!</strong>
 </body>
 </html>
