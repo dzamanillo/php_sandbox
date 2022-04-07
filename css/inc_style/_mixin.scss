@@ -1,0 +1,112 @@
+@mixin brandGradiant_bg(){
+  width: 1274px;
+  
+  background: radial-gradient(50% 50% at 50% 50%, rgba(0, 206, 255, 0.6) 0%, rgba(0, 206, 255, 0) 100%);
+filter: blur(150px);
+ 
+}
+
+
+@mixin grayGradiant(){
+
+  background: linear-gradient(107.95deg, rgba(255, 255, 255, 0.14) 0%, rgba(255, 250, 250, 0) 83.15%);
+
+filter: drop-shadow(0px 4px 43px rgba(0, 0, 0, 0.25));
+backdrop-filter: blur(15.4188px);
+
+
+
+
+}
+
+
+@mixin brandGradiant_bg2(){
+
+width: 1274px;
+height: 533px;
+background: radial-gradient(50% 50% at 50% 50%, rgba(0, 206, 255, 0.6) 0%, rgba(0, 206, 255, 0) 100%);
+filter: blur(150px);
+
+}
+
+@mixin  after-full-cover(){
+
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  
+  
+}
+
+
+
+
+
+@mixin border_radius($radius:200px ){
+
+  border-radius: $radius;
+
+
+}
+
+@mixin flex($display:flex, $justify-center:center, $align-center:center  ){
+
+
+  
+
+  display: $display;
+  justify-content:  $justify-center;
+  align-items: $align-center;
+
+
+}
+
+
+@mixin absolute_center( $top:50%, $left:50%, $right:50% ){
+
+      top:$top;
+      left:$left;
+      right:$right;
+     
+
+}
+
+
+@mixin absolute_transform($left:-50%, $right:-50%){
+
+  transform:translate($left, $right);
+
+}
+
+
+
+@mixin animation($timeDelay:600ms){
+
+  transition:all $timeDelay!important;
+
+}
+
+
+
+
+@keyframes dotFade {
+  0% {opacity: 0;}
+  50% {opacity: 1;}
+  100% {opacity: 0;}
+}
+
+@keyframes dotFade1 {
+  0% {opacity: 0;}
+  50% {opacity: 0.6;}
+  100% {opacity: 0;}
+}
+
+
+@keyframes dotFade2 {
+  0% {opacity: 0;}
+  50% {opacity: 0.3;}
+  100% {opacity: 0;}
+}
